@@ -3,7 +3,7 @@ import re
 import string
 import joblib
 
-df=pd.read_csv('IMDB-Dataset.csv')
+df=pd.read_csv('WEEK 1/IMDB-Dataset.csv')
 
 df["review"]= df["review"].str.lower();
 
