@@ -48,8 +48,8 @@ from sklearn.linear_model import LogisticRegression
 model = LogisticRegression(max_iter=1000)
 model.fit(X_train_tfidf, y_train)
 y_pred = model.predict(X_test_tfidf)
-joblib.dump(model, "sentiment_model.pkl")
-joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
+joblib.dump(model, "WEEK 1/sentiment_model.pkl")
+joblib.dump(vectorizer, "WEEK 1/tfidf_vectorizer.pkl")
 
 print("Sentiment Model has been saved successfully")
 

@@ -5,8 +5,8 @@ import joblib
 
 user_review = input("Enter the Text for which you want to test sentiment: ")
 
-model = joblib.load("sentiment_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
+model = joblib.load("WEEK 1/sentiment_model.pkl")
+vectorizer = joblib.load("WEEK 1/tfidf_vectorizer.pkl")
 
 def remove_html_tags(text):
     pattern= re.compile('<.*?>')
